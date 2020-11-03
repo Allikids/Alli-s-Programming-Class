@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=\, initial-scale=1.0">
+        <title>Tutor's first html</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <style>
+    
+        /* span{
+            color: red;
+            font-style: italic;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        } */
+
+        /* .world{
+            color: red;
+            font-style: italic; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        } */
+
+        /* #world{
+            color: red;
+            font-style: italic; 
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        } */
+    </style>
+
+    <body class="world">
+        <h1 class="world">Hello World <h1 id="world">hshshshshs</h1></h1>
+        <h1>Hello <span class="world" id="world">World</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quos sapiente vel doloremque illo harum at.
+        Id, explicabo illo tempore nemo vel amet dicta quidem ipsa? Dolores blanditiis libero quidem.
+        </p>
+
+        <!-- linking to a file in the same folder -->
+        <a href="index2.html">Tutor's second <b> html</b></a> 
+        
+
+        <!-- linking to files in a folder directly outside of the folder  -->
+        <a href="../Adams folder/index.html" target="_blank"> Adams Programming html</a> 
+        <a href="../Aalim's folder/index.html"> Aalim Programming html</a> 
+        <a href="../Aalia folder/index.html"> Aalia Programming html</a> 
+
+        <!-- linking to files in a folder that is 3 folders outside of the folder  -->
+        <a  href="../../../Videos/1. Introduction/5. Join Our Open Source Projects!.html">  Programming course</a>
+        
+        <!-- linking to external website  -->
+        <a href="https://totalcost.netlify.app/">totalcost</a>
+
+        <!-- Image files -->
+        <img src="../images/960x0.jpg" alt="Tutor's image">
+
+        <!-- Video files -->
+        <video src="../../../Videos/5. Advanced HTML 5/2. HTML Forms 2.mp4"></video>
+
+        <!-- showing how div element works -->
+        <div style="margin-bottom: 20px;">
+            <a style="margin-bottom: 20px;" href="../Adams folder/index.html"> Adams Programming html</a> <br>
+            <a href="../Aalim's folder/index.html"> Aalim Programming html</a> 
+            <a href="../Aalia folder/index.html"> Aalia Programming html</a> 
+        </div>
+
+        <div align= "center">
+            <a  href="../Adams folder/index.html"> Adams Programming html</a> 
+            <a href="../Aalim's folder/index.html"> Aalim Programming html</a> 
+            <a href="../Aalia folder/index.html"> Aalia Programming html</a> 
+            <a href="../Aalia folder/index.html"> Aalia Programming html</a> 
+        </div>
+
+        <!-- list items -->
+
+        <!-- unordered list -->
+        <div>
+            <ul style="list-style: square;">
+                
+                <li>Aalim's programming</li>
+                <li>Adams programming</li>
+                <li>Tutor's programming</li>
+                <li>Aalia's programming</li>
+            </ul>
+        </div>
+        <!-- ordered list -->
+        <div>
+            <ol>
+                <li>Aalim's programming</li>
+                <li>Adams programming</li>
+                <li>Tutor's programming</li>
+                <li>Aalia's programming</li>
+            </ol>
+        </div>
+
+        <!-- table -->
+
+        <table>
+            <!-- table header -->
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+
+            <!-- table body -->
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Adams</td>
+                    <td>Alli</td>
+                    <td>Male</td>
+                    <td>Six</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Aalim</td>
+                    <td>Alli</td>
+                    <td>Male</td>
+                    <td>Eight</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Aalia</td>
+                    <td>Alli</td>
+                    <td>Female</td>
+                    <td>Ten</td>
+                </tr>
+            </tbody>
+            
+        </table>
+
+        <!-- Forms -->
+        <form action="">
+            <label for="">First Name</label>
+            <input type="text" name="firstname" placeholder="firstname">
+
+            <label for="">Last Name</label>
+            <input type="text" name="lastname" placeholder="lastname">
+            
+            <label for="">Email</label>
+            <input type="email" name="email" placeholder="email" required>
+            
+            <label for="">Password</label>
+            <input type="password" name="password" placeholder="password">
+
+            <label for="">Location</label>
+            <select name="Location" placeholder="Location">
+                <option value="Location">Location</option>
+                <option value="Location">Lagos</option>
+                <option value="Location">Abuja</option>
+                <option value="Location">Kwara</option>
+                <option value="Location">Oyo</option>
+                <option value="Location">Ibadan</option>
+                <option value="Location">Ebonyi</option>                                                                                                    
+            </select>
+            
+            <label for="">Date</label>
+            <input type="date" name="" id="">
+            <input type="datetime-local" name="" id="">
+            <input type="time" name="" id="">
+            
+            <label for="">Phone Number</label>
+            <input type="number" placeholder="phone number" name="" id="">
+
+            <!-- form radios -->
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female 
+
+            <!-- form checkboxes -->
+            <input type="checkbox"> Watching Movies
+            <input type="checkbox"> Riding Bicycle
+            <input type="checkbox"> Playing Football
+            <input type="checkbox"> Driving car
+            <input type="checkbox"> Washing Plates
+        
+            <!-- form buttons -->
+            <button type="submit">Submit</button>
+            <input type="button" value="Submit">
+            <input type="submit">
+
+            <!-- form file -->
+            <input type="file" name="" value="Choose file">
+
+            <!-- form textarea -->
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+
+            <!-- form reset -->
+            <input type="reset" value="reset">
+        
+        </form>
+
+
+        
+    </body>
+</html>

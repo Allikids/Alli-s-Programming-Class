@@ -1,0 +1,37 @@
+/* *{
+    text-align: center;
+    color: red;
+} */
+
+/* span{
+    color: red;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+body{
+    background-image: url(../images/web_bg.jpg);
+    /* background-repeat: no-repeat; */
+}
+
+/* a{
+    color:red ;
+} */
+
+.world{
+    /* color: red; */
+    font-style: italic; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#world{
+    /* color: red; */
+    font-style: italic; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, p{
+    /* color: red; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+}
