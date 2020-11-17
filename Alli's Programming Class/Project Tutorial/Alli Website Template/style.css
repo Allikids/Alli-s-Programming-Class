@@ -1,0 +1,74 @@
+html{
+    /* font-size: 62.5%; */
+    height: 100%;
+    padding: 0;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    color: white;
+}
+header a{
+    color: white;
+}
+
+.main_header{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(228, 153, 68);
+    /* border-radius: 10px ; */
+}
+
+.navbar_container {
+  height: 100%;
+  z-index: 1;
+  padding: 0 100px;
+}
+
+.navbar_group_left{
+    float: left;
+    margin-top: 15px;
+}
+
+.logo_img{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.logo_name{
+    position: relative;
+    top: -30px;
+    left: 40px;
+    font-size: 20px;
+}
+
+.navbar_group_right{
+    float: right;
+}
+
+ul.primary_nav_item{
+    list-style: none;
+}
+
+li.nav_item{
+    display: inline;
+    padding: 10px;
+    font-size: 12px ;
+    font-weight: 700;
+
+
+}
+
+
