@@ -1,11 +1,11 @@
- html{
+html{
     height: 100%;
     padding: 0;
 }
 
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-decoration: none;
+    text-decoration:none;
     margin: 0;
 }
 
@@ -25,13 +25,12 @@ header a{
     width: 100%;
     height: 70px;
     background-color: rgb(228, 153, 68);
-    /* border-radius: 10px ; */
 }
 
-.navbar_container {
-  height: 100%;
-  z-index: 1;
-  padding: 0 100px;
+.navbar_container{
+    height: 100%;
+    z-index: 1;
+    padding: 0 100px;
 }
 
 .navbar_group_left{
@@ -69,5 +68,5 @@ li.nav_item{
 }
 
 li.nav_item a:hover{
-        font-size: 12px;
+    font-size: 12px;
 }

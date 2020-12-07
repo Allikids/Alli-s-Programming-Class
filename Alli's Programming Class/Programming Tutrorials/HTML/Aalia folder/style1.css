@@ -1,8 +1,8 @@
- html{
+html{
     height: 100%;
     padding: 0;
-}
 
+}
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
@@ -11,28 +11,28 @@ body{
 
 a{
     text-decoration: none;
-}
 
+}
 header{
     color: white;
 }
 
 header a{
-    color: white;
+    color: wheat;
 }
 
 .main_header{
     width: 100%;
     height: 70px;
-    background-color: rgb(228, 153, 68);
-    /* border-radius: 10px ; */
+    background-color: rgb(228 153 68);
 }
 
 .navbar_container {
-  height: 100%;
-  z-index: 1;
-  padding: 0 100px;
-}
+    height: 100%;
+    z-index: 1;
+    padding: 0 100px;
+
+} 
 
 .navbar_group_left{
     float: left;
@@ -44,11 +44,11 @@ header a{
     width: 35px;
     background-color: white;
     clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
-}
+} 
 
 .logo_name{
     position: relative;
-    top: -30px;
+    top: 30px;
     left: 40px;
     font-size: 20px;
 }
@@ -68,6 +68,28 @@ li.nav_item{
     font-weight: 700;
 }
 
-li.nav_item a:hover{
-        font-size: 12px;
+li.nav_item a:hover {
+    font-size: 12px;
 }
+ 
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
